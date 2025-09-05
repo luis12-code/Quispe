@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préstamos en Línea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        .beneficio-icon {
+            font-size: 2.5rem;
+            color: #0d6efd;
+        }
+
+        .card-img-top {
+            height: 160px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 1rem 1rem 0 0;
+        }
+
+        .testimonio-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #0d6efd;
+        }
+
+        .banner {
+            background: linear-gradient(90deg, #0d6efd 60%, #6c757d 100%);
+            color: #fff;
+            padding: 2.5rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 2rem 2rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <header class="banner text-center shadow-lg">
+        <div class="container">
+            <h1 class="fw-bold display-3 mb-2"><i class="bi bi-cash-coin"></i> PRÉSTAMOS EN LÍNEA</h1>
+            <p class="lead mb-3">Rápido, seguro y 100% desde tu celular</p>
+            <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?auto=format&fit=crop&w=600&q=80"
+                alt="Dinero digital en el móvil" class="img-fluid rounded shadow mt-3" style="max-width: 350px;">
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm mb-5 rounded-bottom-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-house-door"></i> Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" target="_blank"><i
+                                class="bi bi-house"></i> Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html" target="_blank"><i
+                                class="bi bi-credit-card"></i> Préstamos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html" target="_blank"><i
+                                class="bi bi-file-earmark-text"></i> Formulario</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+
+        <!-- Beneficios visuales -->
+        <section class="mb-5">
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-gift"></i> Beneficios para ti</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="bi bi-lightning-charge beneficio-icon"></i>
+                        <h5 class="mt-2 fw-bold">Aprobación rápida</h5>
+                        <p>Recibe tu dinero en minutos, sin esperas.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="bi bi-shield-check beneficio-icon"></i>
+                        <h5 class="mt-2 fw-bold">100% seguro</h5>
+                        <p>Tus datos están protegidos y son confidenciales.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="bi bi-phone beneficio-icon"></i>
+                        <h5 class="mt-2 fw-bold">Desde tu celular</h5>
+                        <p>Solicita y gestiona tu préstamo desde cualquier lugar.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="bi bi-check2-circle beneficio-icon"></i>
+                        <h5 class="mt-2 fw-bold">Sin trámites</h5>
+                        <p>Olvídate de los papeles y las filas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aplicaciones de préstamos con imágenes -->
+        <section>
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-phone"></i> Aplicaciones de préstamos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 border-primary">
+                        <img src="img/android.png"
+                            class="card-img-top" alt="App de préstamos Android">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="card-title mb-0"><i class="bi bi-android2"></i> Android</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush mt-3">
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> MiCard</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> TD Finanza</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Megabillion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 border-success">
+                        <img src="img/apple.jpg"
+                            class="card-img-top" alt="App de préstamos iOS">
+                        <div class="card-header bg-success text-white">
+                            <h4 class="card-title mb-0"><i class="bi bi-apple"></i> iOS</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush mt-3">
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> DaDa Presenta</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> AlaskaShop</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Foundation</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Megabillion</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> TD Finanza</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 border-info">
+                        <img src="https://images.unsplash.com/photo-1508385082359-f48fa9f0a2c1?auto=format&fit=crop&w=400&q=80"
+                            class="card-img-top" alt="Préstamo fácil y rápido">
+                        <div class="card-header bg-info text-white">
+                            <h4 class="card-title mb-0"><i class="bi bi-rocket"></i> Fácil y rápido</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush mt-3">
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Sin papeles</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Sin colas</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> 100% online</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Dinero en minutos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios con imágenes reales -->
+        <section class="mt-5">
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-star"></i> Lo que dicen nuestros clientes
+            </h2>
+            <div class="row bg-white p-4 rounded shadow-sm align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
+                        alt="Cliente satisfecha con préstamo" class="testimonio-img mb-3">
+                    <p class="fw-bold">María G.</p>
+                </div>
+                <div class="col-md-8">
+                    <blockquote class="blockquote">
+                        <p class="mb-0 fst-italic">"Necesitaba dinero para una emergencia y lo obtuve en menos de 15
+                            minutos. El proceso fue increíblemente fácil y seguro. ¡Altamente recomendado!"</p>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row bg-white p-4 rounded shadow-sm align-items-center mt-3">
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+                        alt="Cliente satisfecho con préstamo" class="testimonio-img mb-3">
+                    <p class="fw-bold">Carlos R.</p>
+                </div>
+                <div class="col-md-8">
+                    <blockquote class="blockquote">
+                        <p class="mb-0 fst-italic">"Me sorprendió lo rápido que fue todo. Sin papeleo y desde mi casa.
+                            ¡Excelente servicio!"</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Preguntas Frecuentes -->
+        <section class="container my-5">
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-question-circle"></i> Preguntas
+                Frecuentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                            ¿Cuánto tarda en aprobarse el préstamo?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            La aprobación suele ser instantánea, pero puede demorar hasta 15 minutos según la aplicación.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                            ¿Qué requisitos necesito?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Solo necesitas ser mayor de edad y tener tu documento de identidad vigente.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla comparativa de aplicaciones -->
+        <section class="container my-5">
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-table"></i> Comparativa de Apps</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>App</th>
+                            <th>Plataforma</th>
+                            <th>Monto Máximo</th>
+                            <th>Tiempo de Aprobación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MiCard</td>
+                            <td>Android</td>
+                            <td>$10,000</td>
+                            <td>5 min</td>
+                        </tr>
+                        <tr>
+                            <td>TD Finanza</td>
+                            <td>Android / iOS</td>
+                            <td>$15,000</td>
+                            <td>10 min</td>
+                        </tr>
+                        <tr>
+                            <td>DaDa Presenta</td>
+                            <td>iOS</td>
+                            <td>$8,000</td>
+                            <td>7 min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto rápido -->
+        <section class="container my-5">
+            <h2 class="text-primary text-center mb-4 fw-bold"><i class="bi bi-chat-dots"></i> ¿Tienes dudas? Contáctanos
+            </h2>
+            <form class="bg-white p-4 rounded shadow-sm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Enviar</button>
+            </form>
+        </section>
+
+        <!-- Footer con redes sociales -->
+        <footer class="bg-dark text-white text-center py-4 mt-5 shadow-lg">
+            <address class="mb-2">
+                <strong><i class="bi bi-envelope"></i> Contáctame</strong><br>
+                <a href="mailto:correo@ejemplo.com" class="text-white text-decoration-underline">correo@ejemplo.com</a>
+            </address>
+            <div class="mb-2">
+                <a href="https://facebook.com" target="_blank" class="text-white mx-2"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="https://twitter.com" target="_blank" class="text-white mx-2"><i class="bi bi-twitter-x fs-4"></i></a>
+                <a href="https://instagram.com" target="_blank" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+            <small>© Derechos reservados 2025</small>
+        </footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

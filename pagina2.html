@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .app-card-img {
+            height: 140px;
+            object-fit: cover;
+            border-radius: 1rem 1rem 0 0;
+        }
+        .app-card {
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-app-indicator"></i> Aplicaciones</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_blank"><i class="bi bi-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html" target="_blank"><i class="bi bi-file-earmark-text"></i> Formulario</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <h2 class="text-center text-primary fw-bold mb-4"><i class="bi bi-phone"></i> Apps de Préstamos Recomendadas</h2>
+        <div class="row g-4 justify-content-center">
+
+            <!-- DADA PRESENTA -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card app-card shadow h-100 border-primary">
+                    <img src="img/presenta.png"
+                        alt="DADA Presenta" class="app-card-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold text-primary">DADA PRESENTA</h5>
+                        <p class="card-text">Préstamos rápidos y seguros desde tu móvil.</p>
+                        <a href="https://www.dadapresenta.com" target="_blank" class="btn btn-primary w-100">Visitar App</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ALASKASHOP -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card app-card shadow h-100 border-success">
+                    <img src="img/alaskashop.jpg"
+                        alt="AlaskaShop" class="app-card-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold text-success">ALASKASHOP</h5>
+                        <p class="card-text">Solicita tu préstamo y compra en línea fácilmente.</p>
+                        <a href="https://h5.alaskashop.co/ar/alaskaShop/" target="_blank" class="btn btn-success w-100">Visitar App</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TD FINANZA -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card app-card shadow h-100 border-warning">
+                    <img src="img/td finanza.png"
+                        alt="TD Finanza" class="app-card-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold text-warning">TD FINANZA</h5>
+                        <p class="card-text">Finanzas personales y préstamos al instante.</p>
+                        <a href="https://bfsaoo.com/YNVVVf" target="_blank" class="btn btn-warning w-100 text-white">Visitar App</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEGABILLION -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card app-card shadow h-100 border-danger">
+                    <img src="img/mega.png"
+                        alt="Megabillion" class="app-card-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold text-danger">MEGABILLION</h5>
+                        <p class="card-text">Obtén grandes préstamos de forma sencilla.</p>
+                        <a href="https://bfsaoo.com/AnQRFb" target="_blank" class="btn btn-danger w-100">Visitar App</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5 shadow-lg">
+        <div class="container">
+            <p class="mb-1">Contáctame: <a href="mailto:Kiensera270@gmail.com" class="text-decoration-none text-white fw-bold">Kiensera270@gmail.com</a></p>
+            <div class="mb-2">
+                <a href="https://facebook.com" target="_blank" class="text-white mx-2"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="https://twitter.com" target="_blank" class="text-white mx-2"><i class="bi bi-twitter-x fs-4"></i></a>
+                <a href="https://instagram.com" target="_blank" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+            <small>© Derechos reservados por el autor</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
